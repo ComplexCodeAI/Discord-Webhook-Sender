@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0b0d14;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: min(90%, 430px);
+  padding: 28px;
+  background: #171b29;
+  border: 1px solid #30364b;
+  border-radius: 18px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: #9ca3b8;
+  margin-bottom: 28px;
+}
+
+label {
+  display: block;
+  margin: 17px 0 8px;
+  font-size: 14px;
+}
+
+input:not([type="checkbox"]), textarea {
+  width: 100%;
+  padding: 12px;
+  background: #0d101a;
+  border: 1px solid #343b50;
+  border-radius: 9px;
+  color: white;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 20px;
+  background: #5865f2;
+  border: 0;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4752c4;
+}
+
+#status {
+  margin-top: 16px;
+  font-size: 14px;
+}

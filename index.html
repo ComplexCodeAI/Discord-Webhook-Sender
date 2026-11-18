@@ -1,0 +1,25 @@
+
+<div class="app">
+  <h1>    Webhook Sender</h1>
+  <p>Send messages directly to Discord.</p>
+
+  <label>Webhook URL</label>
+  <input id="webhook"
+    placeholder="https://discord.com/api/webhooks/...">
+
+  <label>Bot Username</label>
+  <input id="username" value="Webhook Sender">
+
+  <label>Message</label>
+  <textarea id="message"
+    placeholder="Write your message..."></textarea>
+
+  <label class="check">
+    <input type="checkbox" id="embed">
+    Send as Embed
+  </label>
+
+  <button onclick="sendMessage()">Send Message ↗</button>
+
+  <div id="status"></div>
+</div>
